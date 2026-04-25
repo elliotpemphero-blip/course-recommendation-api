@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load ML model
 # Ensure 'course_recommendation.pkl' is in the same folder as this script
-model = joblib.load("course_recommendation.pkl")
+model = joblib.load("course_recommendation_model.pkl")
 
 # Your specific Supabase credentials
 SUPABASE_URL = "https://snhhlgsjzsmxoocmphjz.supabase.co"
